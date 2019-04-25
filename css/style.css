@@ -120,6 +120,7 @@ body {
 
 .row {
   max-width: 114rem;
+  background-color: #eee;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -128,6 +129,7 @@ body {
     clear: both;
     display: table; }
   .row [class^="col-"] {
+    background-color: magenta;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
