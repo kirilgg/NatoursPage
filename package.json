@@ -1,0 +1,22 @@
+{
+  "name": "natourspage",
+  "version": "1.0.0",
+  "description": "Landing page for natourse",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirilgg/NatoursPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirilgg/NatoursPage/issues"
+  },
+  "homepage": "https://github.com/kirilgg/NatoursPage#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
